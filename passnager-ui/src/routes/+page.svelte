@@ -3,6 +3,7 @@
 	import Comentario from '$lib/components/Comentario.svelte';
 	import Categoria from '$lib/components/Categoria.svelte';
 	import Checker from '$lib/components/Checker.svelte';
+	import PasswordField from '$lib/components/password_field.svelte';
 </script>
 
 <Entrada
@@ -26,6 +27,8 @@
 <Categoria />
 <hr />
 <Checker label_text={'Terms and conditions'} />
+<hr />
+<PasswordField></PasswordField>
 
 <style>
 </style>
